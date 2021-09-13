@@ -40,6 +40,7 @@ h1 {
   margin-top: 5px;
 }
 #all-products {
+  background-color: rgb(250, 247, 247);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* border: 1px solid black; */
@@ -48,6 +49,9 @@ h1 {
   margin: auto;
   align-items: center;
   justify-content: center;
+}
+.cart-main {
+  background-color: rgb(248, 242, 245);
 }
 
 .single-product {
